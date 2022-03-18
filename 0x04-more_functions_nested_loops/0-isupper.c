@@ -2,22 +2,17 @@
 
 /**
  * _isupper - A function that checks for uppercase characters.
- * @c: An input character
- * Return: 1 if c is uppercase or 0 otherwise
+ * @c:print int
+ * Return: Always 0
  */
 int _isupper(int c)
 {
-    char uppercase = 'A';
-    int isupper = 0;
-
-    for(; uppercase <= 'Z'; uppercase++)
-     {
-         if (c == uppercase)
-         {
-               isupper = 1;
-               break;
-         }
+    if (c >= 'A' && c <= 'Z')
+      {
+        return (1);
       }
-
-      return(isupper);
+   else
+     {
+        return (0);
+     }
 }

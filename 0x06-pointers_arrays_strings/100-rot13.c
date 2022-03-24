@@ -5,7 +5,7 @@
  *Return: the pointer to dest
  */
 
-char 8rot13(char *s)
+char *rot13(char *s)
 {
 int count = 0, i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
